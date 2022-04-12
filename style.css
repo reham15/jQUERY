@@ -1,0 +1,88 @@
+body{
+height:1000px;
+
+}
+
+.container{
+/* width:1000px; */
+height:900px;
+display:flex;
+
+
+
+
+}
+.menu
+{ display:flex;
+justify-content:space-around;
+background-color:rgb(246, 253, 251);
+width:60%;
+height:900px;
+flex-wrap: wrap;
+
+}
+.item
+{
+ margin:20px;
+ width:220px; 
+ height:180px;  
+}
+.card
+{
+    width:40%;
+
+background-color:rgb(245, 245, 245); 
+height:900px;
+
+}
+img{
+
+    display: block;
+    width:200px;
+    height:150px;
+    
+    
+}
+button{
+     width:200px;
+    
+   
+}
+.hidden
+{
+display:none;
+
+}
+.flex
+{
+display:flex;
+justify-content:space-between;
+margin:20px;
+-ms-flex-align: center;
+
+}
+.price
+{
+    width:200px;
+ text-align: center;
+
+}
+svg{
+fill:red;
+font-size:10px;
+width:20px;
+margin:20px;
+
+}
+.num
+{
+text-align: center;
+margin-top:70px;
+
+}
+.priceadded
+{
+
+    text-align: center;
+    margin-top:90px; 
+}
